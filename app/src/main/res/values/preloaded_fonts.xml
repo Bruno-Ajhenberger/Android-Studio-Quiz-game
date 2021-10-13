@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/abel</item>
+        <item>@font/aguafina_script</item>
+        <item>@font/aldrich</item>
+        <item>@font/alegreya</item>
+        <item>@font/alex_brush</item>
+        <item>@font/allan_bold</item>
+        <item>@font/metrophobic</item>
+        <item>@font/text_me_one</item>
+    </array>
+</resources>

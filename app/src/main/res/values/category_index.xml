@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="category_index" >
+        <item name="General_knowledge">9</item>
+        <item name="History">23</item>
+        <item name="Science">17</item>
+        <item name="Sports">21</item>
+        <item name="Geography">22</item>
+        <item name="Movies">14</item>
+        <item name="Art">25</item>
+        <item name="Celebrities">26</item>
+        <item name="Music">12</item>
+        <item name="Books">10</item>
+        <item name="Animmals">27</item>
+        <item name="Video_games">15</item>
+    </integer-array>
+</resources>

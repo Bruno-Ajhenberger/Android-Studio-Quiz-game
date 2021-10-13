@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">MyProject</string>
+
+    <string-array name="Categories">
+        <item name="General_knowledge">General Knowledge</item>
+        <item name="History">History</item>
+        <item name="Science">Science</item>
+        <item name="Sports">Sports</item>
+        <item name="Geography">Geography</item>
+        <item name="Movies">Movie</item>
+        <item name="Art">Art</item>
+        <item name="Celebrities">Celebrities</item>
+        <item name="Music">Music</item>
+        <item name="Books">Books</item>
+        <item name="Animals">Animals</item>
+        <item name="Video_games">Video Games</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ovo_je_neki_plkaceholder_tekst_koji_predstavlja_pitanjke_na_koje_treba_odgoovoriti">Ovo je neki plkaceholder tekst koji predstavlja pitanjke na koje treba odgoovoriti</string>
+    <string name="play1">Play</string>
+    <string name="play2">Play</string>
+    <string name="update1">Update</string>
+    <string name="exit1">Exit</string>
+    <string name="play">Play</string>
+    <string name="update">Update</string>
+    <string name="exit">Exit</string>
+    <string name="select_or_deselect_questions">Select or deselect Questions</string>
+    <string name="history">History</string>
+    <string name="science">Science</string>
+    <string name="sport">Sport</string>
+    <string name="geography">Geography</string>
+    <string name="movies">Movies</string>
+    <string name="art">Art</string>
+    <string name="celebrities">Celebrities</string>
+    <string name="music">Music</string>
+    <string name="books">Books</string>
+    <string name="animals">Animals</string>
+    <string name="video_games">Video Games</string>
+    <string name="save">Save</string>
+    <string-array name="Quotes" >
+        <item name="quote1">&quot;quote quot Be who you are and say what you feel,because those who mind don't matter, and those who matter don't mind.&quot;
+        </item>
+        <item name="quote2">&quot;Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma – which is living with the results of other people's thinking.&quot;-Steve Jobs
+        </item>
+        <item name="quote3">&quot;The future belongs to those who believe in the beauty of their dreams.&quot;-Eleanor Roosevelt
+        </item>
+        <item name="quote4">&quot;Tell me and I forget. Teach me and I remember. Involve me and I learn.&quot; -Benjamin Franklin
+        </item>
+        <item name="quote5">&quot;The greatest glory in living lies not in never falling, but in rising every time we fall. &quot;-Nelson Mandela </item>
+        <item name="quote6">&quot;Many of life's failures are people who did not realize how close they were to success when they gave up. &quot;-Thomas A. Edison </item>
+        <item name="quote7">&quot;Life is a succession of lessons which must be lived to be understood. &quot;-Ralph Waldo Emerson </item>
+        <item name="quote8">&quot;Never let the fear of striking out keep you from playing the game. &quot;-Babe Ruth </item>
+        <item name="quote9">&quot;You only live once, but if you do it right, once is enough. &quot;-Mae West
+        </item>
+
+    </string-array>
+
+
+</resources>

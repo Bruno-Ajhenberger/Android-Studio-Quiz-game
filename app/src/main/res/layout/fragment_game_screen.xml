@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameScreenFragment"
+    android:background="@drawable/pic9"
+    android:id="@+id/relLayoutGameScreenFragment"
+    >
+
+
+    <TextView
+        android:id="@+id/tvv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ovo_je_neki_plkaceholder_tekst_koji_predstavlja_pitanjke_na_koje_treba_odgoovoriti"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:background="@drawable/question_box"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:padding="10dp"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:id="@+id/tvTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="30s"
+        android:layout_above="@id/imvTimeBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:background="@drawable/question_box"
+        android:padding="7dp"
+
+        />
+
+    <ImageView
+        android:id="@+id/imvTimeBar"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_above="@id/btnAnswer1"
+        android:src="@drawable/bar_grey"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="35dp"
+        />
+
+    <Button
+        android:id="@+id/btnAnswer1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btnAnswer2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/btn_styles"
+        android:fontFamily="@font/text_me_one"
+        android:text="@string/play"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="26sp" />
+
+
+    <Button
+        android:id="@+id/btnAnswer2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btnAnswer3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/btn_styles"
+        android:fontFamily="@font/text_me_one"
+        android:text="@string/play"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="26sp" />
+    <Button
+        android:id="@+id/btnAnswer3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="35dp"
+        android:layout_marginLeft="35dp"
+        android:fontFamily="@font/text_me_one"
+        android:layout_above="@id/btnAnswer4"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/btn_styles"
+        android:text="@string/update"
+        android:textSize="24sp"
+        android:textAllCaps="false"
+        />
+    <Button
+        android:id="@+id/btnAnswer4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/btn_styles"
+        android:fontFamily="@font/text_me_one"
+        android:text="@string/exit"
+        android:textSize="24sp"
+        android:textAllCaps="false"
+
+        />
+
+</RelativeLayout>

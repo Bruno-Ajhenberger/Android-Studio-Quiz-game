@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainPageFragment"
+    android:background="@drawable/animation_list"
+    android:id="@+id/mainFragmentLayout"
+    >
+
+    <TextView
+        android:id="@+id/tvMainPageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alegreya"
+        android:padding="50dp"
+        android:text="“Be who you are and say what you feel,
+because those who mind don't matter, and those who matter
+don't mind.”"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btnWebSite"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/btn_styles"
+        android:fontFamily="@font/text_me_one"
+        android:text="@string/play"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        />
+    <Button
+        android:id="@+id/btnWebSite"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/text_me_one"
+        android:layout_above="@id/btnExit"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/btn_styles"
+        android:text="@string/update"
+        android:textSize="24sp"
+        android:textAllCaps="false"
+        />
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/btn_styles"
+        android:fontFamily="@font/text_me_one"
+        android:text="@string/exit"
+        android:textSize="24sp"
+        android:textAllCaps="false"
+
+        />
+
+
+
+</RelativeLayout>
